@@ -9,12 +9,14 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
   font-family: "Press Start 2P", sans-serif;
   color: #eee;
   background-color: #222;
+  overflow: hidden;
   /* background-color: #60b347; */
 }
 
@@ -156,6 +158,7 @@ h1 {
   }
   .message {
     margin-bottom: 5rem;
+    margin-top: 20px;
     height: 0rem;
   }
   .message,
